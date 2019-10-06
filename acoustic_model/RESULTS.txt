@@ -1,0 +1,2 @@
+%WER 11.52 [ 26948 / 233903, 1510 ins, 11663 del, 13775 sub ] exp/nnet3_chain/tdnn_250/decode_test/wer_9_0.0
+%WER 8.44 [ 19736 / 233903, 983 ins, 10187 del, 8566 sub ] exp/nnet3_chain/tdnn_f/decode_test/wer_9_0.0

@@ -1,0 +1,168 @@
+{
+  "statistics": {
+    "num_wavs": 10,
+    "num_words": 86,
+    "num_entities": 0,
+    "correct_transcriptions": 8,
+    "correct_intent_names": 0,
+    "correct_words": 83,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.9651162790697675,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "de4-71.wav": {
+      "text": "wie bestimmt man die flächeninhalte unter den kurven",
+      "wav_seconds": 4.5,
+      "transcribe_seconds": 1.760771,
+      "word_error": {
+        "expected": "wie bestimmt man die flächeninhalte unter den kurven",
+        "actual": "wie bestimmt man die flächeninhalte unter den kurven",
+        "words": 8,
+        "correct": 8,
+        "errors": 0
+      }
+    },
+    "de4-69.wav": {
+      "text": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
+      "wav_seconds": 5.375,
+      "transcribe_seconds": 1.700812,
+      "word_error": {
+        "expected": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
+        "actual": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
+        "words": 9,
+        "correct": 9,
+        "errors": 0
+      }
+    },
+    "de4-75.wav": {
+      "text": "mathematik ist keine naturwissenschaft im eigentlichen sinne",
+      "wav_seconds": 5,
+      "transcribe_seconds": 1.626096,
+      "word_error": {
+        "expected": "mathematik ist keine naturwissenschaft im  eigentlichen SINN",
+        "actual": "mathematik ist keine naturwissenschaft im  eigentlichen SINNE",
+        "words": 7,
+        "correct": 6,
+        "errors": 1
+      }
+    },
+    "de4-74.wav": {
+      "text": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
+      "wav_seconds": 5.75,
+      "transcribe_seconds": 1.729762,
+      "word_error": {
+        "expected": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
+        "actual": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
+        "words": 8,
+        "correct": 8,
+        "errors": 0
+      }
+    },
+    "de4-68.wav": {
+      "text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren",
+      "wav_seconds": 6.375,
+      "transcribe_seconds": 1.823981,
+      "word_error": {
+        "expected": "und die mathematischen objekte auf die wesentlichen eigenschaften zu  reduzieren",
+        "actual": "und die mathematischen objekte auf die wesentlichen eigenschaften zu  reduzieren",
+        "words": 10,
+        "correct": 10,
+        "errors": 0
+      }
+    },
+    "de4-70.wav": {
+      "text": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
+      "wav_seconds": 5.75,
+      "transcribe_seconds": 1.748171,
+      "word_error": {
+        "expected": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
+        "actual": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
+        "words": 8,
+        "correct": 8,
+        "errors": 0
+      }
+    },
+    "de4-76.wav": {
+      "text": "denn die aussagen der mathematik hängen nicht von experimenten ab",
+      "wav_seconds": 5.125,
+      "transcribe_seconds": 1.645073,
+      "word_error": {
+        "expected": "denn die aussagen der mathematik hängen nicht von experimenten ab",
+        "actual": "denn die aussagen der mathematik hängen nicht von experimenten ab",
+        "words": 10,
+        "correct": 10,
+        "errors": 0
+      }
+    },
+    "de4-67.wav": {
+      "text": "man versuche die mathematik volk ständig in axiome zu zerlegen",
+      "wav_seconds": 6,
+      "transcribe_seconds": 1.758976,
+      "word_error": {
+        "expected": "man VERSUCHTE die mathematik ***  VOLLSTäNDIG in  axiome zu  zerlegen",
+        "actual": "man VERSUCHE  die mathematik VOLK STäNDIG     in  axiome zu  zerlegen",
+        "words": 9,
+        "correct": 7,
+        "errors": 3
+      }
+    },
+    "de4-72.wav": {
+      "text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen",
+      "wav_seconds": 5,
+      "transcribe_seconds": 1.599197,
+      "word_error": {
+        "expected": "er  wollte funktionen untersuchen und gekrümmte flächen vermessen",
+        "actual": "er  wollte funktionen untersuchen und gekrümmte flächen vermessen",
+        "words": 8,
+        "correct": 8,
+        "errors": 0
+      }
+    },
+    "de4-73.wav": {
+      "text": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
+      "wav_seconds": 6,
+      "transcribe_seconds": 1.803821,
+      "word_error": {
+        "expected": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
+        "actual": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
+        "words": 9,
+        "correct": 9,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "de4-71.wav": {
+      "text": "wie bestimmt man die flächeninhalte unter den kurven"
+    },
+    "de4-69.wav": {
+      "text": "wie kann die teilbarkeit von ganzen zahlen untersucht werden"
+    },
+    "de4-75.wav": {
+      "text": "mathematik ist keine naturwissenschaft im eigentlichen sinn"
+    },
+    "de4-74.wav": {
+      "text": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet"
+    },
+    "de4-68.wav": {
+      "text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren"
+    },
+    "de4-70.wav": {
+      "text": "wie können räumliche beziehungen optimal rechnerisch erfasst werden"
+    },
+    "de4-76.wav": {
+      "text": "denn die aussagen der mathematik hängen nicht von experimenten ab"
+    },
+    "de4-67.wav": {
+      "text": "man versuchte die mathematik vollständig in axiome zu zerlegen"
+    },
+    "de4-72.wav": {
+      "text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen"
+    },
+    "de4-73.wav": {
+      "text": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft"
+    }
+  }
+}
