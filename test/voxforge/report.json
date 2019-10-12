@@ -9,13 +9,23 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.9651162790697675,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 3.2622250412794522
   },
   "actual": {
     "de4-71.wav": {
       "text": "wie bestimmt man die flächeninhalte unter den kurven",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0004405975341796875,
       "wav_seconds": 4.5,
-      "transcribe_seconds": 1.760771,
+      "transcribe_seconds": 1.536665,
       "word_error": {
         "expected": "wie bestimmt man die flächeninhalte unter den kurven",
         "actual": "wie bestimmt man die flächeninhalte unter den kurven",
@@ -26,8 +36,16 @@
     },
     "de4-69.wav": {
       "text": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002288818359375,
       "wav_seconds": 5.375,
-      "transcribe_seconds": 1.700812,
+      "transcribe_seconds": 1.615492,
       "word_error": {
         "expected": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
         "actual": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
@@ -38,8 +56,16 @@
     },
     "de4-75.wav": {
       "text": "mathematik ist keine naturwissenschaft im eigentlichen sinne",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002276897430419922,
       "wav_seconds": 5,
-      "transcribe_seconds": 1.626096,
+      "transcribe_seconds": 1.664432,
       "word_error": {
         "expected": "mathematik ist keine naturwissenschaft im  eigentlichen SINN",
         "actual": "mathematik ist keine naturwissenschaft im  eigentlichen SINNE",
@@ -50,8 +76,16 @@
     },
     "de4-74.wav": {
       "text": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 3.743171691894531e-05,
       "wav_seconds": 5.75,
-      "transcribe_seconds": 1.729762,
+      "transcribe_seconds": 1.697438,
       "word_error": {
         "expected": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
         "actual": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
@@ -62,8 +96,16 @@
     },
     "de4-68.wav": {
       "text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0004286766052246094,
       "wav_seconds": 6.375,
-      "transcribe_seconds": 1.823981,
+      "transcribe_seconds": 1.740457,
       "word_error": {
         "expected": "und die mathematischen objekte auf die wesentlichen eigenschaften zu  reduzieren",
         "actual": "und die mathematischen objekte auf die wesentlichen eigenschaften zu  reduzieren",
@@ -74,8 +116,16 @@
     },
     "de4-70.wav": {
       "text": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00022983551025390625,
       "wav_seconds": 5.75,
-      "transcribe_seconds": 1.748171,
+      "transcribe_seconds": 1.7466,
       "word_error": {
         "expected": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
         "actual": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
@@ -86,8 +136,16 @@
     },
     "de4-76.wav": {
       "text": "denn die aussagen der mathematik hängen nicht von experimenten ab",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002751350402832031,
       "wav_seconds": 5.125,
-      "transcribe_seconds": 1.645073,
+      "transcribe_seconds": 1.568051,
       "word_error": {
         "expected": "denn die aussagen der mathematik hängen nicht von experimenten ab",
         "actual": "denn die aussagen der mathematik hängen nicht von experimenten ab",
@@ -98,8 +156,16 @@
     },
     "de4-67.wav": {
       "text": "man versuche die mathematik volk ständig in axiome zu zerlegen",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00023794174194335938,
       "wav_seconds": 6,
-      "transcribe_seconds": 1.758976,
+      "transcribe_seconds": 1.780123,
       "word_error": {
         "expected": "man VERSUCHTE die mathematik ***  VOLLSTäNDIG in  axiome zu  zerlegen",
         "actual": "man VERSUCHE  die mathematik VOLK STäNDIG     in  axiome zu  zerlegen",
@@ -110,8 +176,16 @@
     },
     "de4-72.wav": {
       "text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 3.838539123535156e-05,
       "wav_seconds": 5,
-      "transcribe_seconds": 1.599197,
+      "transcribe_seconds": 1.590371,
       "word_error": {
         "expected": "er  wollte funktionen untersuchen und gekrümmte flächen vermessen",
         "actual": "er  wollte funktionen untersuchen und gekrümmte flächen vermessen",
@@ -122,8 +196,16 @@
     },
     "de4-73.wav": {
       "text": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00023245811462402344,
       "wav_seconds": 6,
-      "transcribe_seconds": 1.803821,
+      "transcribe_seconds": 1.85335,
       "word_error": {
         "expected": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
         "actual": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
