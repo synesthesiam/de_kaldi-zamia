@@ -23,3 +23,5 @@ training:
 text-to-speech:
   espeak:
     voice: "de"
+  marytts:
+    voice: "bits1-hsmm"
