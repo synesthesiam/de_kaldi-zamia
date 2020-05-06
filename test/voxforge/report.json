@@ -1,250 +1,760 @@
 {
-  "statistics": {
-    "num_wavs": 10,
-    "num_words": 86,
-    "num_entities": 0,
-    "correct_transcriptions": 8,
-    "correct_intent_names": 0,
-    "correct_words": 83,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.9651162790697675,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 3.2622250412794522
+  "expected": {
+    "de4-69.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-74.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-70.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-72.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-75.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "mathematik ist keine naturwissenschaft im eigentlichen sinn",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-71.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "wie bestimmt man die flächeninhalte unter den kurven",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-73.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-76.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "denn die aussagen der mathematik hängen nicht von experimenten ab",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-68.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "de4-67.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "man versuchte die mathematik vollständig in axiome zu zerlegen",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
-    "de4-71.wav": {
-      "text": "wie bestimmt man die flächeninhalte unter den kurven",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0004405975341796875,
-      "wav_seconds": 4.5,
-      "transcribe_seconds": 1.536665,
-      "word_error": {
-        "expected": "wie bestimmt man die flächeninhalte unter den kurven",
-        "actual": "wie bestimmt man die flächeninhalte unter den kurven",
-        "words": 8,
-        "correct": 8,
-        "errors": 0
-      }
-    },
     "de4-69.wav": {
-      "text": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002288818359375,
+      "text": "wie kann die teilbarkeit vom ganzen zahlen untersucht werden",
+      "raw_text": "wie kann die teilbarkeit vom ganzen zahlen untersucht werden",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 5.375,
-      "transcribe_seconds": 1.615492,
+      "transcribe_seconds": 8.798992465000083,
+      "speech_confidence": null,
+      "wav_name": "de4-69.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
-        "actual": "wie kann die teilbarkeit von ganzen zahlen untersucht werden",
+        "reference": [
+          "wie",
+          "kann",
+          "die",
+          "teilbarkeit",
+          "von",
+          "ganzen",
+          "zahlen",
+          "untersucht",
+          "werden"
+        ],
+        "hypothesis": [
+          "wie",
+          "kann",
+          "die",
+          "teilbarkeit",
+          "vom",
+          "ganzen",
+          "zahlen",
+          "untersucht",
+          "werden"
+        ],
+        "differences": [
+          "wie",
+          "kann",
+          "die",
+          "teilbarkeit",
+          "von:vom",
+          "ganzen",
+          "zahlen",
+          "untersucht",
+          "werden"
+        ],
         "words": 9,
-        "correct": 9,
-        "errors": 0
-      }
-    },
-    "de4-75.wav": {
-      "text": "mathematik ist keine naturwissenschaft im eigentlichen sinne",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002276897430419922,
-      "wav_seconds": 5,
-      "transcribe_seconds": 1.664432,
-      "word_error": {
-        "expected": "mathematik ist keine naturwissenschaft im  eigentlichen SINN",
-        "actual": "mathematik ist keine naturwissenschaft im  eigentlichen SINNE",
-        "words": 7,
-        "correct": 6,
-        "errors": 1
+        "errors": 1,
+        "matches": 8,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.1111111111111111
       }
     },
     "de4-74.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
       "text": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 3.743171691894531e-05,
+      "raw_text": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 5.75,
-      "transcribe_seconds": 1.697438,
+      "transcribe_seconds": 8.609303012000055,
+      "speech_confidence": null,
+      "wav_name": "de4-74.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
-        "actual": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet",
+        "reference": [
+          "mathematik",
+          "wird",
+          "von",
+          "vielen",
+          "naturwissenschaftlern",
+          "als",
+          "hilfswissenschaft",
+          "verwendet"
+        ],
+        "hypothesis": [
+          "mathematik",
+          "wird",
+          "von",
+          "vielen",
+          "naturwissenschaftlern",
+          "als",
+          "hilfswissenschaft",
+          "verwendet"
+        ],
+        "differences": [
+          "mathematik",
+          "wird",
+          "von",
+          "vielen",
+          "naturwissenschaftlern",
+          "als",
+          "hilfswissenschaft",
+          "verwendet"
+        ],
         "words": 8,
-        "correct": 8,
-        "errors": 0
-      }
-    },
-    "de4-68.wav": {
-      "text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0004286766052246094,
-      "wav_seconds": 6.375,
-      "transcribe_seconds": 1.740457,
-      "word_error": {
-        "expected": "und die mathematischen objekte auf die wesentlichen eigenschaften zu  reduzieren",
-        "actual": "und die mathematischen objekte auf die wesentlichen eigenschaften zu  reduzieren",
-        "words": 10,
-        "correct": 10,
-        "errors": 0
+        "errors": 0,
+        "matches": 8,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "de4-70.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
       "text": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00022983551025390625,
+      "raw_text": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 5.75,
-      "transcribe_seconds": 1.7466,
+      "transcribe_seconds": 8.26176590400064,
+      "speech_confidence": null,
+      "wav_name": "de4-70.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
-        "actual": "wie können räumliche beziehungen optimal rechnerisch erfasst werden",
+        "reference": [
+          "wie",
+          "können",
+          "räumliche",
+          "beziehungen",
+          "optimal",
+          "rechnerisch",
+          "erfasst",
+          "werden"
+        ],
+        "hypothesis": [
+          "wie",
+          "können",
+          "räumliche",
+          "beziehungen",
+          "optimal",
+          "rechnerisch",
+          "erfasst",
+          "werden"
+        ],
+        "differences": [
+          "wie",
+          "können",
+          "räumliche",
+          "beziehungen",
+          "optimal",
+          "rechnerisch",
+          "erfasst",
+          "werden"
+        ],
         "words": 8,
-        "correct": 8,
-        "errors": 0
-      }
-    },
-    "de4-76.wav": {
-      "text": "denn die aussagen der mathematik hängen nicht von experimenten ab",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002751350402832031,
-      "wav_seconds": 5.125,
-      "transcribe_seconds": 1.568051,
-      "word_error": {
-        "expected": "denn die aussagen der mathematik hängen nicht von experimenten ab",
-        "actual": "denn die aussagen der mathematik hängen nicht von experimenten ab",
-        "words": 10,
-        "correct": 10,
-        "errors": 0
-      }
-    },
-    "de4-67.wav": {
-      "text": "man versuche die mathematik volk ständig in axiome zu zerlegen",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00023794174194335938,
-      "wav_seconds": 6,
-      "transcribe_seconds": 1.780123,
-      "word_error": {
-        "expected": "man VERSUCHTE die mathematik ***  VOLLSTäNDIG in  axiome zu  zerlegen",
-        "actual": "man VERSUCHE  die mathematik VOLK STäNDIG     in  axiome zu  zerlegen",
-        "words": 9,
-        "correct": 7,
-        "errors": 3
+        "errors": 0,
+        "matches": 8,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "de4-72.wav": {
-      "text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 3.838539123535156e-05,
+      "text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen",
+      "raw_text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 5,
-      "transcribe_seconds": 1.590371,
+      "transcribe_seconds": 7.064588088999699,
+      "speech_confidence": null,
+      "wav_name": "de4-72.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "er  wollte funktionen untersuchen und gekrümmte flächen vermessen",
-        "actual": "er  wollte funktionen untersuchen und gekrümmte flächen vermessen",
+        "reference": [
+          "er",
+          "wollte",
+          "funktionen",
+          "untersuchen",
+          "und",
+          "gekrümmte",
+          "flächen",
+          "vermessen"
+        ],
+        "hypothesis": [
+          "er",
+          "wollte",
+          "funktionen",
+          "untersuchen",
+          "und",
+          "gekrümmte",
+          "flächen",
+          "vermessen"
+        ],
+        "differences": [
+          "er",
+          "wollte",
+          "funktionen",
+          "untersuchen",
+          "und",
+          "gekrümmte",
+          "flächen",
+          "vermessen"
+        ],
         "words": 8,
-        "correct": 8,
-        "errors": 0
+        "errors": 0,
+        "matches": 8,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "de4-75.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "mathematik ist keine naturgemäß wissenschaft im eigenen jugendlichen sender",
+      "raw_text": "mathematik ist keine naturgemäß wissenschaft im eigenen jugendlichen sender",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5,
+      "transcribe_seconds": 8.962327229000039,
+      "speech_confidence": null,
+      "wav_name": "de4-75.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "mathematik",
+          "ist",
+          "keine",
+          "naturwissenschaft",
+          "im",
+          "eigentlichen",
+          "sinn"
+        ],
+        "hypothesis": [
+          "mathematik",
+          "ist",
+          "keine",
+          "naturgemäß",
+          "wissenschaft",
+          "im",
+          "eigenen",
+          "jugendlichen",
+          "sender"
+        ],
+        "differences": [
+          "mathematik",
+          "ist",
+          "keine",
+          "+naturgemäß",
+          "naturwissenschaft:wissenschaft",
+          "im",
+          "+eigenen",
+          "eigentlichen:jugendlichen",
+          "sinn:sender"
+        ],
+        "words": 7,
+        "errors": 5,
+        "matches": 4,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 2,
+        "error_rate": 0.7142857142857143
+      }
+    },
+    "de4-71.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "wie bestimmt man die flächeninhalte unter den kurven",
+      "raw_text": "wie bestimmt man die flächeninhalte unter den kurven",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.5,
+      "transcribe_seconds": 7.8906563800001095,
+      "speech_confidence": null,
+      "wav_name": "de4-71.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "wie",
+          "bestimmt",
+          "man",
+          "die",
+          "flächeninhalte",
+          "unter",
+          "den",
+          "kurven"
+        ],
+        "hypothesis": [
+          "wie",
+          "bestimmt",
+          "man",
+          "die",
+          "flächeninhalte",
+          "unter",
+          "den",
+          "kurven"
+        ],
+        "differences": [
+          "wie",
+          "bestimmt",
+          "man",
+          "die",
+          "flächeninhalte",
+          "unter",
+          "den",
+          "kurven"
+        ],
+        "words": 8,
+        "errors": 0,
+        "matches": 8,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "de4-73.wav": {
-      "text": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00023245811462402344,
+      "text": "mathematische frage stellung resultieren aus der physik und der ingenieurwissenschaft",
+      "raw_text": "mathematische frage stellung resultieren aus der physik und der ingenieurwissenschaft",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 6,
-      "transcribe_seconds": 1.85335,
+      "transcribe_seconds": 7.200650443999621,
+      "speech_confidence": null,
+      "wav_name": "de4-73.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
-        "actual": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft",
+        "reference": [
+          "mathematische",
+          "fragestellungen",
+          "resultieren",
+          "aus",
+          "der",
+          "physik",
+          "und",
+          "der",
+          "ingenieurwissenschaft"
+        ],
+        "hypothesis": [
+          "mathematische",
+          "frage",
+          "stellung",
+          "resultieren",
+          "aus",
+          "der",
+          "physik",
+          "und",
+          "der",
+          "ingenieurwissenschaft"
+        ],
+        "differences": [
+          "mathematische",
+          "+frage",
+          "fragestellungen:stellung",
+          "resultieren",
+          "aus",
+          "der",
+          "physik",
+          "und",
+          "der",
+          "ingenieurwissenschaft"
+        ],
         "words": 9,
-        "correct": 9,
-        "errors": 0
+        "errors": 2,
+        "matches": 8,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.2222222222222222
+      }
+    },
+    "de4-76.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "denn die aussagen der mathematik hängen nicht von ex für momenten ab",
+      "raw_text": "denn die aussagen der mathematik hängen nicht von ex für momenten ab",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.125,
+      "transcribe_seconds": 8.747965086000477,
+      "speech_confidence": null,
+      "wav_name": "de4-76.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "denn",
+          "die",
+          "aussagen",
+          "der",
+          "mathematik",
+          "hängen",
+          "nicht",
+          "von",
+          "experimenten",
+          "ab"
+        ],
+        "hypothesis": [
+          "denn",
+          "die",
+          "aussagen",
+          "der",
+          "mathematik",
+          "hängen",
+          "nicht",
+          "von",
+          "ex",
+          "für",
+          "momenten",
+          "ab"
+        ],
+        "differences": [
+          "denn",
+          "die",
+          "aussagen",
+          "der",
+          "mathematik",
+          "hängen",
+          "nicht",
+          "von",
+          "+ex",
+          "+für",
+          "experimenten:momenten",
+          "ab"
+        ],
+        "words": 10,
+        "errors": 3,
+        "matches": 9,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 2,
+        "error_rate": 0.3
+      }
+    },
+    "de4-68.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren",
+      "raw_text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.375,
+      "transcribe_seconds": 8.776526826000008,
+      "speech_confidence": null,
+      "wav_name": "de4-68.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "und",
+          "die",
+          "mathematischen",
+          "objekte",
+          "auf",
+          "die",
+          "wesentlichen",
+          "eigenschaften",
+          "zu",
+          "reduzieren"
+        ],
+        "hypothesis": [
+          "und",
+          "die",
+          "mathematischen",
+          "objekte",
+          "auf",
+          "die",
+          "wesentlichen",
+          "eigenschaften",
+          "zu",
+          "reduzieren"
+        ],
+        "differences": [
+          "und",
+          "die",
+          "mathematischen",
+          "objekte",
+          "auf",
+          "die",
+          "wesentlichen",
+          "eigenschaften",
+          "zu",
+          "reduzieren"
+        ],
+        "words": 10,
+        "errors": 0,
+        "matches": 10,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "de4-67.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "man versuche die mathematik voll ständig in axiome zu zerlegen",
+      "raw_text": "man versuche die mathematik voll ständig in axiome zu zerlegen",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6,
+      "transcribe_seconds": 9.3381641269998,
+      "speech_confidence": null,
+      "wav_name": "de4-67.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "man",
+          "versuchte",
+          "die",
+          "mathematik",
+          "vollständig",
+          "in",
+          "axiome",
+          "zu",
+          "zerlegen"
+        ],
+        "hypothesis": [
+          "man",
+          "versuche",
+          "die",
+          "mathematik",
+          "voll",
+          "ständig",
+          "in",
+          "axiome",
+          "zu",
+          "zerlegen"
+        ],
+        "differences": [
+          "man",
+          "versuchte:versuche",
+          "die",
+          "mathematik",
+          "+voll",
+          "vollständig:ständig",
+          "in",
+          "axiome",
+          "zu",
+          "zerlegen"
+        ],
+        "words": 9,
+        "errors": 3,
+        "matches": 7,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.3333333333333333
       }
     }
   },
-  "expected": {
-    "de4-71.wav": {
-      "text": "wie bestimmt man die flächeninhalte unter den kurven"
-    },
-    "de4-69.wav": {
-      "text": "wie kann die teilbarkeit von ganzen zahlen untersucht werden"
-    },
-    "de4-75.wav": {
-      "text": "mathematik ist keine naturwissenschaft im eigentlichen sinn"
-    },
-    "de4-74.wav": {
-      "text": "mathematik wird von vielen naturwissenschaftlern als hilfswissenschaft verwendet"
-    },
-    "de4-68.wav": {
-      "text": "und die mathematischen objekte auf die wesentlichen eigenschaften zu reduzieren"
-    },
-    "de4-70.wav": {
-      "text": "wie können räumliche beziehungen optimal rechnerisch erfasst werden"
-    },
-    "de4-76.wav": {
-      "text": "denn die aussagen der mathematik hängen nicht von experimenten ab"
-    },
-    "de4-67.wav": {
-      "text": "man versuchte die mathematik vollständig in axiome zu zerlegen"
-    },
-    "de4-72.wav": {
-      "text": "er wollte funktionen untersuchen und gekrümmte flächen vermessen"
-    },
-    "de4-73.wav": {
-      "text": "mathematische fragestellungen resultieren aus der physik und der ingenieurwissenschaft"
-    }
-  }
+  "num_wavs": 10,
+  "num_words": 86,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 5,
+  "correct_intent_names": 0,
+  "correct_words": 78,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.9069767441860465,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 0.659866811295537
 }

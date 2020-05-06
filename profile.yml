@@ -1,3 +1,7 @@
+---
+name: "de_kaldi-zamia"
+version: "2.0"
+
 language:
   name: "german"
   code: "de-DE"
@@ -14,6 +18,7 @@ training:
   large-files:
     - !env "${profile_dir}/base_dictionary.txt"
     - !env "${profile_dir}/base_language_model.txt"
+    - !env "${profile_dir}/base_language_model.fst"
     - !env "${profile_dir}/g2p.fst"
     - !env "${profile_dir}/acoustic_model/model/final.mdl"
     - !env "${profile_dir}/acoustic_model/model/graph/HCLG.fst"
